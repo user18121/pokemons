@@ -1,7 +1,11 @@
 import PokemonSearch from "./PokemonInfo";
 
 const Page = () => {
-  return <PokemonSearch />;
+  return (
+    <>
+      <PokemonSearch />
+    </>
+  );
 };
 
 export default Page;
